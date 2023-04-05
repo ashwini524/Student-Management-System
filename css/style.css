@@ -1,5 +1,9 @@
 body > table{
-    width: 100%;
+    width: 80%;
+    align-items: center;
+}
+h2{
+    text-align: center;
 }
 
 table{
@@ -9,6 +13,7 @@ table{
 table.list{
     width:100%;
     text-align: center;
+    background-color: #91d8e4;
 }
 table.list td{
     text-align: center;
@@ -41,7 +46,7 @@ input[type=submit]{
     cursor: pointer;
 }
 form{
-    background-color: #D6AB81;
+    background-color: #BA90C6;
     padding: 10px;
 
 }
@@ -62,3 +67,33 @@ label.validation-error{
 .hide{
     display:none;
 }
+table.result tr{
+    background-color: #91d8e4;
+    text-align: center;
+}
+.btn {
+    background: #edb5b5;
+    /* background-image: -webkit-linear-gradient(top, #FD8A8A, #ff5959);
+    background-image: -moz-linear-gradient(top, #FD8A8A, #ff5959);
+    background-image: -ms-linear-gradient(top, #FD8A8A, #ff5959);
+    background-image: -o-linear-gradient(top, #FD8A8A, #ff5959);
+    background-image: linear-gradient(to bottom, #FD8A8A, #ff5959); */
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 12px 5px 12px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
